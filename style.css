@@ -1,0 +1,75 @@
+@media screen and (max-width: 800px) {
+    .body {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  .nav{
+      /*Making the container a flexbox*/
+      display: flex;
+      /*Making equal spaced divs*/
+      justify-content: center;
+  }
+  #button{
+  
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      margin:10px;
+      background-color: aquamarine;
+      border: 2px solid white;
+      color:blue;
+  }
+  /*At least one embedding styling*/
+  footer{
+      color: darkblue !important;
+  }
+  .Intereses{
+      display: flex;
+      margin: 20px;
+      font-size: 20px;
+  }
+  .intrests{
+      flex-direction: row;
+      margin:20px;
+      padding:2em;
+      border:4px solid antiquewhite;
+  }
+  .Bio{
+      display: flex;
+      margin: 20px;
+      font-size: 20px;
+      border:4px solid antiquewhite;
+      padding:2em;
+  }
+  .sictc{
+      text-align: center;
+  }
+  body{
+      margin: 5%;
+      outline-color:lightblue;
+      color:darkblue;
+      background-color: lightblue;
+  }
+  h1{
+      display:flex;
+      justify-content: center;
+  }
+  footer{
+      text-align: center;
+  }
+  br{
+    border-color: black;
+  }
+  .CrosswordPuzzle{
+    width:auto;
+    display:flex;
+    justify-content: center;
+  }
+  .PWManger{
+    display:flex;
+    justify-content: center;
+  }
+  #Submit{
+    background-color: black;
+    color:beige;
+  }

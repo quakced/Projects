@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--logo-->
+        <meta charset="UTF-8" />
+        <meta http-eqiv="X-UA-Compatible" contents="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="V-icon" href="assets/V.ico">
+        <title>ConatctPage</title>
+        <link rel="stylesheet" href="style.css">
+        <h1>Contact Me</h1>
+    </head>
+<style>
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width:auto;
+        margin-top:50px;
+        justify-content: center;
+    }
+</style>
+<body>
+    <!--3 pages total-->
+    <!--Consistant navigation -->
+    <div class="nav">
+        <a href ="Home.html"><button id ="button"><strong>Home</strong></button></a>
+        <a href="ProjectsPage.html"><button id ="button"><strong>Projects</strong></button></a>
+        <a href ="ContactPage.html"><button id ="button"><strong>Contact</strong></button></a>
+    </div>
+    <table>
+        <div class="Contact">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Email">
+            <br>
+            <label for="Description">Description</label>
+            <textarea id="Description" name="Description" placeholder="Description"></textarea>
+            <br>
+            <button id="Submit">Submit</button>
+        </div>
+    </table>
+    <footer>
+    ©Copyright Drew Brandle Website
+</footer>
+</body>
